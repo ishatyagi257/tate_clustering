@@ -1,0 +1,21 @@
+childId,childName,parentId,parentName,relation,count,Actual Count,Downloaded
+60,nature,1,subject,subject_1->nature_60,36477,35671,4987
+13,architecture,1,subject,subject_1->architecture_13,29787,29291,"4,993"
+106,places,1,subject,subject_1->places_106,23842,23358,4983
+71,landscape,60,nature,subject_1->nature_60->landscape_71,23323,23040,4992
+91,people,1,subject,subject_1->people_91,20798,19641,4954
+95,adults,91,people,subject_1->people_91->adults_95,19158,18165,4978
+28,"townscapes, man-made features",13,architecture,"subject_1->architecture_13->townscapes, man-made features_28",18499,18242,4992
+145,society,1,subject,subject_1->society_145,13991,13308,4959
+78,objects,1,subject,subject_1->objects_78,12381,11472,4905
+108,countries and continents,106,places,subject_1->places_106->countries and continents_108,12142,11853,4989
+113,UK countries and regions,106,places,subject_1->places_106->UK countries and regions_113,11211,11025,4992
+76,water: inland,60,nature,subject_1->nature_60->water: inland_76,11075,10991,4995
+636,hill,71,landscape,subject_1->nature_60->landscape_71->hill_636,9787,9703,5016
+107,"cities, towns, villages (non-UK)",106,places,"subject_1->places_106->cities, towns, villages (non-UK)_107",9526,9325,4987
+114,UK counties,106,places,subject_1->places_106->UK counties_114,9400,9724,4994
+184,abstraction,1,subject,subject_1->abstraction_184,8503,7690,4950
+195,man,95,adults,subject_1->people_91->adults_95->man_195,8385,7841,4947
+2803,England,113,UK countries and regions,subject_1->places_106->UK countries and regions_113->England_2803,8381,8219,4989
+29,"emotions, concepts and ideas",1,subject,"subject_1->emotions, concepts and ideas_29",8248,7353,4717
+496,wooded,71,landscape,subject_1->nature_60->landscape_71->wooded_496,8144,8008,4980
